@@ -31,7 +31,7 @@ for pagina in range(1, total_paginas + 1):
 
 if dados_total:
     df = pd.DataFrame(dados_total)
-    df.to_excel("produtos_abcfarma_completoj.xlsx", index=False)
+    df.to_excel("produtos_abcfarma_completo.xlsx", index=False)
     print("Dados salvos com sucesso em 'produtos_abcfarma_completo.xlsx'")
 else:
     print("Nenhum dado foi obtido da API.")
