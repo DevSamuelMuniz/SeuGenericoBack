@@ -1,5 +1,5 @@
 flask_cors
 pandas
 flask
-request
+requests
 openpyxl
